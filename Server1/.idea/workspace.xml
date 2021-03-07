@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6829e6ab-cdd7-428b-96f7-6bfe912b6f71" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e1yLVVU335w0nQJZMeFY56IOdp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Server1\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Server1\src\com\company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HttpServer">
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ClientTest" />
+      <module name="Server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.HttpServer" />
+      <module name="Server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSLClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SSLClient" />
+      <module name="Server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSLServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SSLServer" />
+      <module name="Server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ServerTest" />
+      <module name="Server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HttpServer" />
+      <item itemvalue="Application.ServerTest" />
+      <item itemvalue="Application.ClientTest" />
+      <item itemvalue="Application.SSLServer" />
+      <item itemvalue="Application.SSLClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HttpServer" />
+        <item itemvalue="Application.SSLClient" />
+        <item itemvalue="Application.SSLServer" />
+        <item itemvalue="Application.ClientTest" />
+        <item itemvalue="Application.ServerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6829e6ab-cdd7-428b-96f7-6bfe912b6f71" name="Default Changelist" comment="" />
+      <created>1593503337315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593503337315</updated>
+      <workItem from="1593503341227" duration="17468000" />
+      <workItem from="1593573678589" duration="6165000" />
+      <workItem from="1593657265952" duration="9319000" />
+      <workItem from="1593699143433" duration="139000" />
+      <workItem from="1593756242123" duration="976000" />
+      <workItem from="1593790199462" duration="81000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593691778358">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="659" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593691778358" />
+    <state x="500" y="234" key="FileChooserDialogImpl" timestamp="1593504724511">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="234" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593504724511" />
+    <state width="930" height="220" key="GridCell.Tab.0.bottom" timestamp="1593790281861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="220" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593790281861" />
+    <state width="930" height="220" key="GridCell.Tab.0.center" timestamp="1593790281860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="220" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593790281860" />
+    <state width="930" height="220" key="GridCell.Tab.0.left" timestamp="1593790281860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="220" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593790281860" />
+    <state width="930" height="220" key="GridCell.Tab.0.right" timestamp="1593790281861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="930" height="220" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593790281861" />
+    <state x="168" y="0" key="SettingsEditor" timestamp="1593504731976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="168" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593504731976" />
+    <state x="527" y="194" key="caller.chooser.dialog" timestamp="1593514252231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="194" key="caller.chooser.dialog/0.0.1536.824@0.0.1536.824" timestamp="1593514252231" />
+    <state x="353" y="194" key="run.anything.popup" timestamp="1593521889683">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="194" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593521889682" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+7月 03, 2020 11:27:40 下午 com.company.Log <init>
+信息: 新建
+7月 03, 2020 11:27:40 下午 com.company.BookMark read
+信息: 查看书签

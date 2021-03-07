@@ -1,0 +1,5 @@
+https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe WeChatSetup1.exe D:\IdeaProjects\Browser1\WeChatSetup1.exe 118335656
+https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe WeChatSetup.exe D:\IdeaProjects\Browser1\WeChatSetup.exe 118335656
+https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe WeChatSetup4.exe D:\IdeaProjects\Browser1\WeChatSetup4.exe 118335656
+https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe WeChatSetup1.exe D:\IdeaProjects\Browser1\WeChatSetup1.exe 118335656
+https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe  WeChatSetup2.exe  D:\IdeaProjects\Browser1\WeChatSetup2.exe  118335656

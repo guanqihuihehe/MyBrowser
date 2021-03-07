@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-28T12:11:26</date>
+  <millis>1561695086101</millis>
+  <sequence>0</sequence>
+  <logger>Demo</logger>
+  <level>INFO</level>
+  <class>Log</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>时间为：Fri Jun 28 12:11:26 CST 2019</message>
+</record>
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-28T14:31:13</date>
+  <millis>1561703473780</millis>
+  <sequence>0</sequence>
+  <logger>Demo</logger>
+  <level>INFO</level>
+  <class>Log</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>时间为：Fri Jun 28 14:31:13 CST 2019</message>
+</record>
+</log>
+<?xml version="1.0" encoding="GBK" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-28T14:44:35</date>
+  <millis>1561704275198</millis>
+  <sequence>0</sequence>
+  <logger>Demo</logger>
+  <level>INFO</level>
+  <class>Log</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>时间为：Fri Jun 28 14:44:35 CST 2019</message>
+</record>
+</log>

@@ -1,0 +1,451 @@
+<html id="pc" lang="en" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="秘迹搜索 - 一个不追踪你的中文搜索引擎">
+    <meta name="keywords" content="search, search engine, metasearch, meta search, privacy search, mijisou">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="searx/0.14.0">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>秘迹搜索</title>
+
+    <link href="https://cdn.leakzero.com/mijisou/css/bootstrap.min.css?staticVersion=1559562262" rel="stylesheet" type="text/css">
+    <link href="https://cdn.leakzero.com/mijisou/themes/entropage/css/logicodev.min.css?staticVersion=1560428730" rel="stylesheet" type="text/css">
+    <link href="https://cdn.leakzero.com/mijisou/themes/entropage/css/leaflet.min.css?staticVersion=1559562262" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.leakzero.com/mijisou/js/html5shiv.min.js?staticVersion=1559562262"></script>
+      <script src="https://cdn.leakzero.com/mijisou/js/respond.min.js?staticVersion=1559562262"></script>
+    <![endif]-->
+
+    <link href="https://cdn.leakzero.com/mijisou/themes/entropage/img/favicon.png?staticVersion=1559562262" rel="shortcut icon">
+
+
+    <link title="秘迹搜索" href="/opensearch.xml" rel="search" type="application/opensearchdescription+xml">
+
+    <script type="text/javascript">
+        searx = {};
+        searx.method = "GET";
+        searx.autocompleter =  false ;
+    </script>
+    <noscript>
+        &lt;style type="text/css"&gt;
+            .tab-content&gt;.active_if_nojs,
+            .active_if_nojs {
+                display: block !important;
+                visibility: visible !important;
+            }
+
+            .margin_top_if_nojs {
+                margin-top: 20px;
+            }
+
+            .hide_if_nojs {
+                display: none !important;
+                overflow: none !important;
+            }
+
+            .disabled_if_nojs {
+                pointer-events: none;
+                cursor: default;
+                text-decoration: line-through;
+            }
+        &lt;/style&gt;
+    </noscript>
+</head>
+
+<body>
+<div class="searx-navbar">
+    <span class="pull-right">
+        <a class="entro-nav-btn" style='background-position: right top; margin-top: 2px; background-image: url("https://cdn.leakzero.com/fe/menu_ic.png"); background-repeat: no-repeat; background-size: 20px auto;' href="javascript:void(0)" data-active-bg="https://cdn.leakzero.com/fe/menu_ic.png" data-bg="https://cdn.leakzero.com/fe/menu_ic.png"></a>
+
+        <ul class="entro-nav" id="entro-nav" style="display: none;">
+            <a class="close" href="javascript:void(0);">x</a>
+
+            <div class="t2">
+                <h2>
+                    <a href="https://www.leakzero.com?from=search">
+                        秘迹 App
+                    </a>
+                </h2>
+            </div>
+
+            <hr>
+
+            <div>
+                <li><a href="/about">关于</a></li>
+                <li><a href="/about#policy">隐私政策</a></li>
+                <li><a href="/about#agreemt">使用协议</a></li>
+                <li><a href="https://www.leakzero.com/blog">博客</a></li>
+                <li><a href="https://www.leakzero.com/detail?type=help&amp;index=101">设为默认搜索引擎</a></li>
+                <li><a href="/about#pay">捐赠</a></li>
+            </div>
+
+            <hr>
+
+            <div class="t3">
+                <h3>关注我们</h3>
+
+                <p>
+                    <img width="20" alt="" src="https://cdn.leakzero.com/fe/menu_wechat_ic.png">
+                    秘迹同学
+                </p>
+            </div>
+        </ul>
+    </span>
+</div>    <div class="main">
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="text-center col-sm-12 col-md-12">
+            <h1 class="text-hide center-block" id="main-logo">
+                <img class="center-block img-responsive" alt="searx logo" src="https://cdn.leakzero.com/mijisou/themes/entropage/img/logo_index_zh_CN.png?staticVersion=1559562262">
+                leakzero search
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center col-sm-12 col-md-12">
+
+<style>
+    .col-sm-12, .col-md-12 {
+        position: static;
+    }
+</style>
+
+<form id="search_form" role="search" action="/" method="GET">
+        <!-- col-md-6 col-md-offset-3 -->
+        <div class="input-group search-container full">
+            <input name="q" class="form-control input-lg autofocus" id="q" type="search" placeholder="搜索..." value="" autocomplete="off">
+            <a class="delete" style='background: url("https://cdn.leakzero.com/mijisou/themes/entropage/img/delete.png?staticVersion=1559562262") no-repeat 0% 0% / contain; display: none;' href="javascript:void(0);">x</a>
+            <span class="input-group-btn">
+                <button class="btn input-lg" id="submit" style='background: url("https://cdn.leakzero.com/mijisou/themes/entropage/img/icon_search.png?staticVersion=1559562262") no-repeat center / 20px 20px;' type="submit">
+                    开始搜索
+                </button>
+            </span>
+            <div class="bang-container" id="bang-container">
+                <div class="bang-boxs">
+                    <div class="bang-left bangs" id="bang-left"></div>
+                    <div class="bang-right bangs" id="bang-right"></div>
+                </div>
+                <div class="bang-des">
+                    <div class="bang-des-left">输入关键词前往目标站点搜索 （!引擎 搜索词）</div>
+                    <div class="bang-des-right">
+                        <a href="/about#faq">了解更多</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2  advanced" style="display: none;">
+<input name="advanced_search" id="check-advanced" type="checkbox">
+<label for="check-advanced">
+  <span class="glyphicon glyphicon-cog"></span>
+  高级设置
+</label>
+<div id="advanced-search-container">
+<div id="categories">
+        <input name="category_general" class="hidden" id="checkbox_general" type="checkbox" checked="checked">
+        <label for="checkbox_general">网页</label>
+        <input name="category_images" class="hidden" id="checkbox_images" type="checkbox">
+        <label for="checkbox_images">图片</label>
+        <input name="category_videos" class="hidden" id="checkbox_videos" type="checkbox">
+        <label for="checkbox_videos">视频</label>
+        <input name="category_it" class="hidden" id="checkbox_it" type="checkbox">
+        <label for="checkbox_it">IT</label>
+</div>  <div class="row">
+    <div class="col-xs-6">
+<select name="time_range" class="custom-select form-control" id="time-range">
+    <option id="time-range-anytime" value="" selected="">
+        时间不限
+    </option>
+    <option id="time-range-day" value="day">
+        一天内
+    </option>
+    <option id="time-range-week" value="week">
+        一周内
+    </option>
+    <option id="time-range-month" value="month">
+        一月内
+    </option>
+    <option id="time-range-year" value="year">
+        一年内
+    </option>
+</select>    </div>
+    <div class="col-xs-6">
+<select name="language" class="custom-select form-control">
+	<option value="ms-MY">
+		Bahasa Melayu - ms-MY
+	</option>
+	<option value="ca-ES">
+		Català - ca-ES
+	</option>
+	<option value="da-DK">
+		Dansk - da-DK
+	</option>
+	<option value="de">
+		Deutsch - de
+	</option>
+	<option value="de-AT">
+		Deutsch (?sterreich) - de-AT
+	</option>
+	<option value="de-CH">
+		Deutsch (Schweiz) - de-CH
+	</option>
+	<option value="de-DE">
+		Deutsch (Deutschland) - de-DE
+	</option>
+	<option value="et-EE">
+		Eesti - et-EE
+	</option>
+	<option value="en">
+		English - en
+	</option>
+	<option value="en-AU">
+		English (Australia) - en-AU
+	</option>
+	<option value="en-CA">
+		English (Canada) - en-CA
+	</option>
+	<option value="en-GB">
+		English (United Kingdom) - en-GB
+	</option>
+	<option value="en-IN">
+		English (India) - en-IN
+	</option>
+	<option value="en-MY">
+		English (Malaysia) - en-MY
+	</option>
+	<option value="en-US">
+		English (United States) - en-US
+	</option>
+	<option value="es">
+		Espa?ol - es
+	</option>
+	<option value="es-AR">
+		Espa?ol (Argentina) - es-AR
+	</option>
+	<option value="es-ES">
+		Espa?ol (Espa?a) - es-ES
+	</option>
+	<option value="es-MX">
+		Espa?ol (México) - es-MX
+	</option>
+	<option value="fr">
+		Fran?ais - fr
+	</option>
+	<option value="fr-BE">
+		Fran?ais (Belgique) - fr-BE
+	</option>
+	<option value="fr-CA">
+		Fran?ais (Canada) - fr-CA
+	</option>
+	<option value="fr-CH">
+		Fran?ais (Suisse) - fr-CH
+	</option>
+	<option value="fr-FR">
+		Fran?ais (France) - fr-FR
+	</option>
+	<option value="hr-HR">
+		Hrvatski - hr-HR
+	</option>
+	<option value="id-ID">
+		Indonesia - id-ID
+	</option>
+	<option value="it-IT">
+		Italiano - it-IT
+	</option>
+	<option value="lv-LV">
+		Latvie?u - lv-LV
+	</option>
+	<option value="lt-LT">
+		Lietuvi? - lt-LT
+	</option>
+	<option value="hu-HU">
+		Magyar - hu-HU
+	</option>
+	<option value="nl">
+		Nederlands - nl
+	</option>
+	<option value="nl-BE">
+		Nederlands (Belgi?) - nl-BE
+	</option>
+	<option value="nl-NL">
+		Nederlands (Nederland) - nl-NL
+	</option>
+	<option value="nb-NO">
+		Norsk Bokm?l - nb-NO
+	</option>
+	<option value="pl-PL">
+		Polski - pl-PL
+	</option>
+	<option value="pt">
+		Português - pt
+	</option>
+	<option value="pt-BR">
+		Português (Brasil) - pt-BR
+	</option>
+	<option value="pt-PT">
+		Português (Portugal) - pt-PT
+	</option>
+	<option value="ro-RO">
+		Rom?n? - ro-RO
+	</option>
+	<option value="sk-SK">
+		Sloven?ina - sk-SK
+	</option>
+	<option value="sl-SI">
+		Sloven??ina - sl-SI
+	</option>
+	<option value="fi-FI">
+		Suomi - fi-FI
+	</option>
+	<option value="sv-SE">
+		Svenska - sv-SE
+	</option>
+	<option value="vi-VN">
+		Ti?ng Vi?t - vi-VN
+	</option>
+	<option value="tr-TR">
+		Türk?e - tr-TR
+	</option>
+	<option value="is-IS">
+		?slenska - is-IS
+	</option>
+	<option value="cs-CZ">
+		?e?tina - cs-CZ
+	</option>
+	<option value="el-GR">
+		Ελληνικ? - el-GR
+	</option>
+	<option value="bg-BG">
+		Български - bg-BG
+	</option>
+	<option value="ru-RU">
+		Русский - ru-RU
+	</option>
+	<option value="sr-RS">
+		Српски - sr-RS
+	</option>
+	<option value="uk-UA">
+		Укра?нська - uk-UA
+	</option>
+	<option value="he-IL">
+		????? - he-IL
+	</option>
+	<option value="ar-SA">
+		??????? - ar-SA
+	</option>
+	<option value="fa-IR">
+		????? - fa-IR
+	</option>
+	<option value="th-TH">
+		??? - th-TH
+	</option>
+	<option value="zh">
+		中文 - zh
+	</option>
+	<option selected="selected" value="zh-CN">
+		中文 (中国) - zh-CN
+	</option>
+	<option value="zh-TW">
+		中文 (中國臺灣) - zh-TW
+	</option>
+	<option value="ja-JP">
+		日本語 - ja-JP
+	</option>
+	<option value="ko-KR">
+		??? - ko-KR
+	</option>
+</select>    </div>
+  </div>
+</div>        </div>
+        <input name="pageno" type="hidden" value="1">
+        <div class="slogan col-md-6 col-md-offset-3">
+            这是一个
+            <a class="b" href="/about#policy">不追踪</a>
+            你的搜索引擎
+        </div>
+</form><!-- / #search_form_full -->        </div>
+        <div class="footer">
+            <div class="content">
+                <div class="image-click">
+                    <img id="arrowImage" src="https://cdn.leakzero.com/fe/arrow_up@3x.png">
+                </div>
+                <div class="header">
+                    <div class="boxs">
+                        <div class="box">
+                            <img class="box-image" src="https://cdn.leakzero.com/mijisou/themes/entropage/img/HOME_btm_merge@3x.png?staticVersion=1559562262">
+                            <div class="box-text">聚合优化的内容</div>
+                        </div>
+                        <div class="box">
+                            <img class="box-image" src="https://cdn.leakzero.com/mijisou/themes/entropage/img/HOME_btm_clean@3x.png?staticVersion=1559562262">
+                            <div class="box-text">干净的搜索结果</div>
+                        </div>
+                        <div class="box">
+                            <img class="box-image" src="https://cdn.leakzero.com/mijisou/themes/entropage/img/HOME_btm_protect@3x.png?staticVersion=1559562262">
+                            <div class="box-text">保护你的隐私</div>
+                        </div>
+                    </div>
+                    <div class="icp">
+                        <div>京ICP备18016546号</div>
+                        <div>京公网安备11010502036987号</div>
+                    </div>
+                </div>
+                <div class="footer-content" id="footer-content">
+                    <div class="footer-boxs">
+                        <div class="box box-right1">更多的来源，更优的显示</div>
+                        <div class="box box-right2">拒绝广告信息和不明代码</div>
+                        <div class="box box-right3">不收集隐私，也阻止收集隐私</div>
+                    </div>
+                    <div class="footer-line">
+                        <img src="https://cdn.leakzero.com/mijisou/themes/entropage/img/group_5_3x.png?staticVersion=1559562262">
+                    </div>
+                    <div class="footer-block">
+                        <div class="block-box">
+                            <div class="box-image">
+                                <img src="https://cdn.leakzero.com/mijisou/themes/entropage/img/bang@3x.png?staticVersion=1559562262">
+                            </div>
+                            <div class="box-text">
+                                <div class="box-t">在搜索框输入！</div>
+                                <div class="box-t">快速直达指定网站内搜索结果</div>
+                                <div class="box-a"><a id="click-zhihu" href="javascript:void(0)">点我试试 在知乎中搜索秘迹</a></div>
+                            </div>
+                        </div>
+                        <div class="block-box">
+                            <div class="box-image">
+                                <img src="https://cdn.leakzero.com/mijisou/themes/entropage/img/thunder@3x.png?staticVersion=1559562262">
+                            </div>
+                            <div class="box-text">
+                                <div class="box-t">即时回答</div>
+                                <div class="box-t">——让你快速找到你要的结果</div>
+                                <div class="box-a"><a id="click-pi" href="javascript:void(0)">点我试试 派等于多少</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    <script src="https://cdn.leakzero.com/mijisou/js/jquery-1.11.1.min.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/js/add_info.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/js/bootstrap.min.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/js/require-2.1.15.min.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/themes/entropage/js/searx.min.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/js/tlink.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/plugins/js/search_on_category_select.js?staticVersion=1559562262"></script>
+    <script src="https://cdn.leakzero.com/mijisou/js/home_footer.js?staticVersion=1559562262"></script>
+    <noscript>
+        &lt;style&gt;
+            .glyphicon {
+                display: none;
+            }
+        &lt;/style&gt;
+    </noscript>
+
+
+</body></html>
